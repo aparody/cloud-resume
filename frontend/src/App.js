@@ -1,10 +1,12 @@
 import React from 'react';
+import VisitorCounter from './VisitorCounter';
 import './App.css';
 
 function App() {
   return (
     <div className="container">
       <header>
+        <VisitorCounter />
         <h1>Arthur Parody</h1>
         <p>Email: <a href="mailto:aparody27@gmail.com">aparody27@gmail.com</a> | Phone: (831) 521-3227</p>
         <p>Location: Omaha, NE (Relocating to Seattle, WA)</p>
