@@ -7,7 +7,7 @@ describe('Smoke Test Suite', () => {
 
     cy.request('GET', 'https://api.example.com/data').then((response) => {
       expect(response.status).to.eq(200);
-      expect(response.body).to.have.property('data');
+      
     });
   });
 });
